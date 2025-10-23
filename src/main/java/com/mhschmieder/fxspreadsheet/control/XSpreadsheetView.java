@@ -365,7 +365,7 @@ public abstract class XSpreadsheetView extends SpreadsheetView {
         // Try to use our custom CSS to style the table headers the way we do in
         // TableView (that is, with bold italic font and an off-blue background
         // for the table column header cells).
-        // NOTE: Temporarily disabled to decouple Java version in fxguitoolkit.
+        // NOTE: Temporarily disabled to decouple Java version in fxcontrols.
         /*
         GuiUtilities.addStylesheetAsJarResource( this, "/css/spreadsheet.css" );
         */
