@@ -45,18 +45,18 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.20.0</version>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
 		<dependency>
 			<groupId>org.controlsfx</groupId>
 			<artifactId>controlsfx</artifactId>
 			<version>8.40.18</version>
 		</dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-math3</artifactId>
-            <version>3.6.1</version>
-        </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
@@ -65,13 +65,13 @@
         </dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-graphics</artifactId>
+			<artifactId>javafx-controls</artifactId>
 			<version>25.0.1</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-controls</artifactId>
+			<artifactId>javafx-graphics</artifactId>
 			<version>25.0.1</version>
 			<scope>compile</scope>
 		</dependency>
