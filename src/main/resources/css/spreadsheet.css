@@ -31,75 +31,68 @@
 
 /* FIXED HEADERS  */
 VerticalHeader > Label.fixed {
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to left,
-    		derive(-fx-color, -20.0%),
-    		derive(-fx-color, -10.0%)
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to left,
+            derive(-fx-color, -20.0%),
+            derive(-fx-color, -10.0%)
+    );
 }
 
 HorizontalHeaderColumn > TableColumnHeader.column-header.table-column.fixed {
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to top,
-    		derive(-fx-color, -20.0%),
-    		derive(-fx-color, -10.0%)
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to top,
+            derive(-fx-color, -20.0%),
+            derive(-fx-color, -10.0%)
+    );
 }
 
 
 /* HORIZONTAL AND VERTICAL HEADER SELECTION */
 VerticalHeader > Label {
     -fx-color: #3e5697; /* #26619c = Lapis Lazuli */
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to left,
-    		derive(-fx-color, -5.0%),
-    		derive(-fx-color, 5.0%)
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to left,
+            derive(-fx-color, -5.0%),
+            derive(-fx-color, 5.0%)
+    );
     -fx-background-insets: 0.0, 0.0 1.0 1.0 0.0, 1.0 2.0 2.0 1.0;
     -fx-font: italic bold 80.0% 'sans-serif';
     -fx-text-fill: white;
     -fx-alignment: center;
-}  
+}
 
 VerticalHeader > Label.selected {
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to right,
-    		derive(#FFDB6D, -10.0%),
-    		derive(#FFDB6D, 10.0%)
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to right,
+            derive(#FFDB6D, -10.0%),
+            derive(#FFDB6D, 10.0%)
+    );
     -fx-border-color: #ffdb6d; /* #f4ca16 = Mikado Yellow (aka Jonquil) */
 }
 
 HorizontalHeaderColumn > TableColumnHeader.column-header.table-column {
     -fx-color: derive(#3e5697, 50.0%); /* #26619c = Lapis Lazuli */
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to top,
-    		derive(-fx-color, -5.0%),
-    		derive(-fx-color, 5.0%)
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to top,
+            derive(-fx-color, -5.0%),
+            derive(-fx-color, 5.0%)
+    );
     -fx-background-insets: 0.0, 0.0 1.0 1.0 0.0, 1.0 2.0 2.0 1.0;
     -fx-font: italic bold 80.0% 'sans-serif';
     -fx-text-fill: white;
     -fx-alignment: center;
-}  
+}
 
 HorizontalHeaderColumn > TableColumnHeader.column-header.table-column.selected {
-    -fx-background-color:
-    	-fx-box-border,
-    	-fx-inner-border,
-    	linear-gradient(to bottom,
-    		derive(#ffdb6d, -10.0%), /* #f4ca16 = Mikado Yellow (aka Jonquil) */
-    		derive(#ffdb6d, 10.0%) /* #f4ca16 = Mikado Yellow (aka Jonquil) */
-    	);
+    -fx-background-color: -fx-box-border,
+    -fx-inner-border,
+    linear-gradient(to bottom,
+            derive(#ffdb6d, -10.0%), /* #f4ca16 = Mikado Yellow (aka Jonquil) */ derive(#ffdb6d, 10.0%) /* #f4ca16 = Mikado Yellow (aka Jonquil) */
+    );
     -fx-border-color: #ffdb6d; /* #f4ca16 = Mikado Yellow (aka Jonquil) */
 }  

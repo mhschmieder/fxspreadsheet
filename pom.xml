@@ -1,80 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>jxlab</artifactId>
         <groupId>com.mhschmieder</groupId>
         <version>1.0.0</version>
     </parent>
 
-	<modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fxspreadsheet</artifactId>
-	<version>1.0.0</version>
-	<packaging>jar</packaging>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
 
-	<name>fxspreadsheet</name>
-	<url>https://github.com/mhschmieder/fxspreadsheet</url>
-	<description>Utilities and custom classes for JavaFX based spreadsheet work.</description>
+    <name>fxspreadsheet</name>
+    <url>https://github.com/mhschmieder/fxspreadsheet</url>
+    <description>Utilities and custom classes for JavaFX based spreadsheet
+        work.
+    </description>
 
-	<licenses>
-		<license>
-			<name>MIT License</name>
-			<url>https://opensource.org/licenses/MIT</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-	<scm>
-		<url>https://github.com/mhschmieder/fxspreadsheet</url>
-		<connection>scm:git:git://github.com/mhschmieder/fxspreadsheet.git</connection>
-		<developerConnection>scm:git:git@github.com:mhschmieder/fxspreadsheet.git</developerConnection>
-	</scm>
+    <scm>
+        <url>https://github.com/mhschmieder/fxspreadsheet</url>
+        <connection>scm:git:git://github.com/mhschmieder/fxspreadsheet.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:mhschmieder/fxspreadsheet.git
+        </developerConnection>
+    </scm>
 
-	<developers>
-		<developer>
-			<email>markhschmieder@gmail.com</email>
-			<name>Mark Schmieder</name>
-			<url>https://github.com/mhschmieder</url>
-		</developer>
-	</developers>
+    <developers>
+        <developer>
+            <email>markhschmieder@gmail.com</email>
+            <name>Mark Schmieder</name>
+            <url>https://github.com/mhschmieder</url>
+        </developer>
+    </developers>
 
-	<dependencies>
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.20.0</version>
         </dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-math3</artifactId>
-			<version>3.6.1</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
-		<dependency>
-			<groupId>org.controlsfx</groupId>
-			<artifactId>controlsfx</artifactId>
-			<version>8.40.18</version>
-		</dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
+        <dependency>
+            <groupId>org.controlsfx</groupId>
+            <artifactId>controlsfx</artifactId>
+            <version>8.40.18</version>
+        </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
             <version>25.0.1</version>
             <scope>compile</scope>
         </dependency>
-		<dependency>
-			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-controls</artifactId>
-			<version>25.0.1</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-graphics</artifactId>
-			<version>25.0.1</version>
-			<scope>compile</scope>
-		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>25.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>25.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -30,24 +30,26 @@
  */
 package com.mhschmieder.fxspreadsheet.control;
 
+import org.controlsfx.control.spreadsheet.SpreadsheetCell;
+
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.ToggleButton;
-import org.controlsfx.control.spreadsheet.SpreadsheetCell;
 
 public final class SpreadsheetUtilities {
 
     /**
-     * The default constructor is disabled, as this is a static utilities class.
+     * The default constructor is disabled, as this is a static utilities
+     * class.
      */
-    private SpreadsheetUtilities() {}
+    private SpreadsheetUtilities() {
+    }
 
     // This is a utility method to safely retrieve displayed text from a
     // spreadsheet cell, defaulting to an empty string to avoid interruption of
     // control flow if there is an issue with the index or the reference.
-    public static String getDisplayedText(
-            final ObservableList< SpreadsheetCell > referenceRow,
-            final int columnIndex ) {
+    public static String getDisplayedText( final ObservableList< SpreadsheetCell > referenceRow,
+                                           final int columnIndex ) {
         String displayedText = "";
 
         try {
@@ -69,10 +71,9 @@ public final class SpreadsheetUtilities {
     // TODO: Find a way to query boolean toggle values without casting to a
     //  ToggleButton (a bit hacky), and make it into a standard method like
     //  other property getters.
-    public static boolean isToggleButtonSelected(
-            final ObservableList< SpreadsheetCell > referenceRow,
-            final int columnIndex,
-            final boolean defaultSelected ) {
+    public static boolean isToggleButtonSelected( final ObservableList< SpreadsheetCell > referenceRow,
+                                                  final int columnIndex,
+                                                  final boolean defaultSelected ) {
         // Fetch the auxiliary Graphic Node for this Spreadsheet Cell.
         final Node auxiliaryNode = referenceRow.get( columnIndex ).getGraphic();
 
